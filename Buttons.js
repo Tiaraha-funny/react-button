@@ -1,12 +1,13 @@
 import React from "react";
+import "./index.css";
 
 function Buttons(prop) {
-
-    // let buttonComponetn = this.state.button;
-
-    return <div>
-        <h1></h1>
-        <button>default</button>
+  
+  return (
+    <div>
+      <p>{prop.myBtns.text}</p>
+      <button className={prop.myBtns.name}>{prop.myBtns.type}</button>
     </div>
+  );
 }
 export default Buttons;
