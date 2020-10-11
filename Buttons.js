@@ -55,7 +55,13 @@ function Buttons(prop) {
   return (
     <div className="btnDiv">
       <p>{prop.text}</p>
-      <button className={attributes} disabled={prop.disabled ? "" : "disabled"}>{prop.children}</button>
+      <button className={attributes} 
+      disabled={prop.disabled ? "" : "disabled"}
+      size={prop.size ? prop.size : ""}
+      variant={prop.variant ? prop.variant : ""}
+      color={prop.color ? prop.color : ""}
+      type={prop.type ? prop.type : ""}
+      >{prop.children}</button>
     </div>
   );
 }

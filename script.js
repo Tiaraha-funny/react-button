@@ -14,7 +14,6 @@ class ButtonsApp extends React.Component {
             text="<Defaut />"
             type="Default"
             name="hover1"
-            disabled=""
           >
             Default
           </Buttons>
@@ -24,7 +23,6 @@ class ButtonsApp extends React.Component {
             text="<Button variant='outline'/>"
             type="Default"
             name="hover2"
-            disabled=""
           >
             Default
           </Buttons>
@@ -34,7 +32,6 @@ class ButtonsApp extends React.Component {
             text="<Button variant='text'/>"
             type="Default"
             name="hover3"
-            disabled=""
           >
             Default
           </Buttons>
@@ -62,7 +59,6 @@ class ButtonsApp extends React.Component {
             text="<Button endIcon='local_grocery_store'/>"
             type="Default"
             name="iconBefore"
-            disabled=""
           >
             Default
           </Buttons>
@@ -73,7 +69,6 @@ class ButtonsApp extends React.Component {
             text="<Button startIcon='local_grocery_store'/>"
             type="Default"
             name="endIcon"
-            disabled=""
           >
             Default
           </Buttons>
@@ -83,7 +78,6 @@ class ButtonsApp extends React.Component {
             type="Default"
             size="sm"
             name="sm"
-            disabled=""
           >
             Default
           </Buttons>
@@ -93,7 +87,6 @@ class ButtonsApp extends React.Component {
             text="<Button size='md' />"
             type="Default"
             name="md"
-            disabled=""
           >
             Default
           </Buttons>
@@ -103,7 +96,6 @@ class ButtonsApp extends React.Component {
             text="<Button size='lg'/>"
             type="Default"
             name="lg"
-            disabled=""
           >
             Default
           </Buttons>
@@ -113,7 +105,6 @@ class ButtonsApp extends React.Component {
             text="<Button color='default' />"
             type="Default"
             name="defClr"
-            disabled=""
           >
             Default
           </Buttons>
@@ -123,7 +114,6 @@ class ButtonsApp extends React.Component {
             text="<Button color='primary' />"
             type="Default"
             name="primary"
-            disabled=""
           >
             Primary
           </Buttons>
@@ -133,7 +123,6 @@ class ButtonsApp extends React.Component {
             text="<Button color='secondary' />"
             type="Secondary"
             name="secondary"
-            disabled=""
           >
             Secondary
           </Buttons>
@@ -143,7 +132,6 @@ class ButtonsApp extends React.Component {
             text="<Button color='danger' />"
             type="Danger"
             name="danger"
-            disabled=""
           >
             Danger
           </Buttons>
@@ -152,7 +140,6 @@ class ButtonsApp extends React.Component {
             text="❤😎😎💕"
             type="good"
             name="mine"
-            disabled=""
           >
             👩‍🦰🧓👧
           </Buttons>
