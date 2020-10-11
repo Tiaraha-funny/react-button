@@ -7,15 +7,17 @@ class ButtonsApp extends React.Component {
   render() {
     return (
       <article>
-        <h1>Buttons</h1>
+        <h1>🛕 Buttons 🛕</h1>
         <div className="buttons">
           <Buttons
             variant=""
-            text="<Button />"
+            text="<Defaut />"
             type="Default"
             name="hover1"
             disabled=""
-          />
+          >
+            Default
+          </Buttons>
 
           <Buttons
             variant="outline"
@@ -23,7 +25,9 @@ class ButtonsApp extends React.Component {
             type="Default"
             name="hover2"
             disabled=""
-          />
+          >
+            Default
+          </Buttons>
 
           <Buttons
             variant="text"
@@ -31,21 +35,27 @@ class ButtonsApp extends React.Component {
             type="Default"
             name="hover3"
             disabled=""
-          />
+          >
+            Default
+          </Buttons>
 
           <Buttons
             disabled="shadow"
             text="<Button disableShadow />"
             type="Default"
             name="disabledShadow"
-          />
+          >
+            Default
+          </Buttons>
 
           <Buttons
             text="<Button variant='text disabled'/>"
             type="Disabled"
             name="textDisabled"
             disabled="disabled"
-          />
+          >
+            Disabled
+          </Buttons>
 
           <Buttons
             icon="startIcon"
@@ -53,7 +63,10 @@ class ButtonsApp extends React.Component {
             type="Default"
             name="iconBefore"
             disabled=""
-          />
+          >
+            Default
+          </Buttons>
+
           <Buttons
             variant="text"
             icon="endIcon"
@@ -61,7 +74,9 @@ class ButtonsApp extends React.Component {
             type="Default"
             name="endIcon"
             disabled=""
-          />
+          >
+            Default
+          </Buttons>
 
           <Buttons
             text="<Button size='sm' />"
@@ -69,7 +84,9 @@ class ButtonsApp extends React.Component {
             size="sm"
             name="sm"
             disabled=""
-          />
+          >
+            Default
+          </Buttons>
 
           <Buttons
             size="md"
@@ -77,7 +94,9 @@ class ButtonsApp extends React.Component {
             type="Default"
             name="md"
             disabled=""
-          />
+          >
+            Default
+          </Buttons>
 
           <Buttons
             size="lg"
@@ -85,28 +104,39 @@ class ButtonsApp extends React.Component {
             type="Default"
             name="lg"
             disabled=""
-          />
+          >
+            Default
+          </Buttons>
+
           <Buttons
             color="default"
             text="<Button color='default' />"
             type="Default"
             name="defClr"
             disabled=""
-          />
+          >
+            Default
+          </Buttons>
+
           <Buttons
             color="primary"
             text="<Button color='primary' />"
             type="Default"
             name="primary"
             disabled=""
-          />
+          >
+            Primary
+          </Buttons>
+
           <Buttons
             color="secondary"
             text="<Button color='secondary' />"
             type="Secondary"
             name="secondary"
             disabled=""
-          />
+          >
+            Secondary
+          </Buttons>
 
           <Buttons
             color="danger"
@@ -114,7 +144,18 @@ class ButtonsApp extends React.Component {
             type="Danger"
             name="danger"
             disabled=""
-          />
+          >
+            Danger
+          </Buttons>
+
+          <Buttons
+            text="❤😎😎💕"
+            type="good"
+            name="mine"
+            disabled=""
+          >
+            👩‍🦰🧓👧
+          </Buttons>
         </div>
       </article>
     );

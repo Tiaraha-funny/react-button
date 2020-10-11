@@ -41,3 +41,11 @@ Step 2. Choose your repository and configure settings with options:
 Step 3. Select `Deploy site`
 
 Good luck!
+
+## Links 
+
+## Structure
+
+## Difficulties
+
+## Improvement

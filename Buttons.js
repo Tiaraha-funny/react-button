@@ -5,7 +5,7 @@ function Buttons(prop) {
 
   let attributes;
 
-  if(prop.text === "<Button />") {
+  if(prop.name === "hover1") {
     attributes = 'hover1';
   }
 
@@ -48,11 +48,14 @@ function Buttons(prop) {
   if(prop.color === 'danger') {
     attributes = 'danger'
   }
+  if(prop.text === 'good') {
+    attributes = 'mine'
+  }
   
   return (
     <div className="btnDiv">
-      <p>{prop.myBtns.text}</p>
-      <button className={attributes} disabled={prop.myBtns.disabled === false ? "" : "disabled"}>{prop.myBtns.type}</button>
+      <p>{prop.text}</p>
+      <button className={attributes} disabled={prop.disabled ? "" : "disabled"}>{prop.children}</button>
     </div>
   );
 }
