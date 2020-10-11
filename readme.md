@@ -1,6 +1,6 @@
 # Button component
 
-### **Link:** 
+### **Link:** https://github.com/Tiaraha-funny/react-button
 
 ## Structure
 

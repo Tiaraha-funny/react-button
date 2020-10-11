@@ -60,4 +60,3 @@ function Buttons(prop) {
   );
 }
 export default Buttons;
- 
