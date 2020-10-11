@@ -1,6 +1,16 @@
+h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.btnDiv {
+  width: 100%;
 }
 
 button {
@@ -12,96 +22,59 @@ button {
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
-  line-height: 20px;
-  text-align: center;
 }
 
-.btnOne {
+.hover1 {
   background-color: #E0E0E0;
   box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
 }
 
-.btnTwo {
+.hover1:hover {
   background-color: #AEAEAE;
   box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
 }
 
-.btnTwo:hover {
+.hover2 {
   background-color: red;
   color: darkblue;
 }
 
-.btnTwo:focus {
-  background-color: violet;
-  color: greenyellow;
-}
-
-.btnThree {
+.hover3 {
   color: blue;
   border: blue 1px solid;
   background-color: white;
 }
 
-.btnFour {
+.hover3:hover {
   background: rgba(41, 98, 255, 0.1);
   border: 1px solid #3D5AFE;
   color: blue;
   border: blue 1px solid;
 }
 
-.btnFour:hover {
-  background-color: green;
-  color: white;
-}
-
-.btnFour:focus {
-  background-color: darkgoldenrod;
-  color: gold;
-}
-
-.btnFive	{
-  background-color: white;
-  color: blue;
-}
-
-.btnSix	{
-  background: rgba(41, 98, 255, 0.1);
-  color: blue;
-}
-
-.btnSix:focus {
-  color: #D32F2F;
-  background-color: hotpink;
-}
-
-.btnSix:hover {
-color: #ffffff;
-background-color: yellow;  
-}
-
-.btSeven {
+.disabledShadow {
   background: #3D5AFE;
   color: white;
 }
 
-.btnEight	{
+.disabled	{
   background: #E0E0E0;
   color: #9E9E9E;
 }
 
-.btnNine	{
+.disabled:hover	{
   color: #9E9E9E;
   background-color: white;
 }
 
-.btnTen {
+.iconBefore {
   background: #2962FF;
   color: white;
   padding-left: 33px;
   box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
 }
 
-.btnTen::before {
+.iconBefore::before {
   content: url("./add_shopping_cart-black-18dp.svg");
   width: 100%;
   display: block;
@@ -109,14 +82,14 @@ background-color: yellow;
   margin-bottom: -21px;
 }
 
-.btnEleven {
+.iconEnd {
   background: #2962FF;
   color: white;
   padding-right: 33px;
   box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
 }
 
-.btnEleven::after {
+.iconEnd::after {
   content: url("./add_shopping_cart-black-18dp.svg");
   width: 100%;
   display: block;
@@ -124,21 +97,21 @@ background-color: yellow;
   margin-top: -19px;
 }
 
-.btnTwelve	{
+.sm	{
   background: #2962FF;
   padding: 6px;
   color: white;
   box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
 }
 
-.btnThirteen {
+.md {
   background: #2962FF;
   color: white;
   padding: 12px;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
-.btnFourteen	{
+.lg {
   background: #2962FF;
   padding: 20px;
   color: white;
@@ -146,69 +119,45 @@ background-color: yellow;
 
 }
 
-.btnFifteen	{
+.default	{
   background: #E0E0E0;
   box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
 }
 
-.btnSixteen	{
+.primary	{
   background: #2962FF;
   color: white;
   box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
 }
 
-
-.btnSeventeen	{
+.secondary	{
   background: #455A64;
   color: white;
   box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
 }
 
-.btnEighteen	{
-  background: #AEAEAE;
-  color: white;
-  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
-}
-
-.btnNineteen{
-  background: #0039CB;
-  color: #ffffff;
- box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
-}
-
-.btnTwenty {
+.danger {
   background: #D32F2F;
   color: #ffffff;
   box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
 }
 
-.btnEighteen {
+.default:hover {
   color: black;
   background: #AEAEAE;
   box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
 }
 
-.btnEighteen:hover {
-  background-color: pink;
-  color: yellow;
-}
-
-.btnNineteen {
+.primary:hover {
   background: #0039CB;
   color: white;
   box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
 }
 
-.btnTwenty {
+.secondary:hover {
+  color: #ffffff;
   background: #1C313A;
-  color: #ffffff;
   box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
-}
-
-.btnTwentyone {
-  background: #9A0007;
-  color: #ffffff;
-  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
 }
 
 
