@@ -1,6 +1,6 @@
 # Button component
 
-### **Link:** https://github.com/Tiaraha-funny/react-button
+### **Link:** https://competent-jackson-9e3ee8.netlify.app/
 
 ## Structure
 
