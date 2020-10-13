@@ -21,6 +21,9 @@ function Buttons(prop) {
   if(prop.disabled === 'disabled') {
     attributes = 'disabled'
   }
+  if(prop.disabled === 'disabledText') {
+    attributes = 'disabledText'
+  }
   if(prop.icon === 'startIcon') {
     attributes = 'iconBefore'
   }

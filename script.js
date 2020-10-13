@@ -46,10 +46,19 @@ class ButtonsApp extends React.Component {
           </Buttons>
 
           <Buttons
-            text="<Button variant='text disabled'/>"
+            text="<Button disabled'/>"
             type="Disabled"
             name="textDisabled"
             disabled="disabled"
+          >
+            Disabled
+          </Buttons>
+
+          <Buttons
+            text="<Button variant='text disabled'/>"
+            type="Disabled"
+            name="textDisabled"
+            disabled="disabledText"
           >
             Disabled
           </Buttons>
